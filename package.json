@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Node.js example application",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js",
+    "build-image": "docker build --tag=otaviof/nodejs-ex:latest ."
+  },
   "keywords": [],
   "author": "Otávio Fernandes",
   "license": "ISC",
