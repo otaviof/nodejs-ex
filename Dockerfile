@@ -1,4 +1,4 @@
-FROM node:16
+FROM docker.io/node:16
 
 # place where the source-code and automation target path is located, using the default place for the
 # "node" images, which means home folder
