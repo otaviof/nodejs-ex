@@ -1,0 +1,10 @@
+[project]
+id = "nodejs-ex"
+name = "Node.js Example"
+version = "0.0.1"
+
+[build]
+exclude = ["/README.md", "/Dockerfile"]
+
+[[build.buildpacks]]
+uri = "gcr.io/paketo-buildpacks/nodejs:latest"
