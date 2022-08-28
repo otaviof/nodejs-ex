@@ -21,7 +21,7 @@ npm run build-image
 You can use [`pack`][buildpacksPack] to build a container image locally:
 
 ```bash
-pack build docker.io/otaviof/nodejs-ex:latest \
+pack build ghcr.io/otaviof/nodejs-ex:latest \
 	--builder="paketobuildpacks/builder:base"
 ```
 
@@ -35,7 +35,7 @@ docker run \
 	--rm \
 	--interactive \
 	--publish="8080:8080" \
-	docker.io/otaviof/nodejs-ex:latest
+	ghcr.io/otaviof/nodejs-ex:latest
 ```
 
 Alternatively, use:
